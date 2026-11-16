@@ -1,9 +1,12 @@
 
 {
+  "id": "./",
   "name": "Faelora - Handmade Ribbon Roses",
   "short_name": "Faelora",
-  "start_url": "./index.html",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#faf7f2",
   "theme_color": "#263342",
   "description": "Elegant handmade satin ribbon roses and bouquets.",
@@ -11,7 +14,14 @@
     {
       "src": "./icon.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
